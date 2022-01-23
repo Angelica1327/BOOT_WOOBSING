@@ -1,0 +1,36 @@
+.Bot{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title_main{
+    font-size: 32px;
+    margin: auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+.FormField-Group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.FormField-Label{
+    margin-right: 10px;
+}
+.FormField-Input{    
+    font-family: 'Poppins', sans-serif;
+}
+.FormField-Button{
+    background: #FFE933;
+    color: #fff;
+    border: 1px solid;
+    border-color: #FDE307;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.FormField-Button:hover{
+    background: #fff;
+    color: #FFE933;
+    border-color: #FFE933;
+}

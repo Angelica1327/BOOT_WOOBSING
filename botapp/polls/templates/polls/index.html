@@ -1,0 +1,15 @@
+{% load static %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{% static 'polls/index.css' %}"/>
+<div class="Bot">
+<h1 class="Title_main">Django Bot</h1>
+<form class="Form" action="/polls/detail">
+    <div class="FormField-Group">
+    <label class="FormField-Label" for="url">URL:</label><br>
+    <input class="FormField-Input" type="text" id="url" name="url" value=""><br>
+</div>
+    <input class="FormField-Button" type="submit" value="Rastrear">
+  </form> 
+</div>
